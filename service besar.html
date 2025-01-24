@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Besar </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .image-placeholder {
+            width: 100%;
+            height: 200px;
+            background: #e7e7e7;
+            text-align: center;
+            line-height: 200px;
+            margin: 20px 0;
+        }
+        #backButton {
+            padding: 10px 20px;
+            background: #35424a;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bengkel DZ SPEED</h1>
+    <nav>
+        <a href="#">Produk & Layanan</a>
+        <a href="/project UAS/bengkel1.html">Booking</a>
+        <a href="#">Berita</a>
+        <a href="#">Tentang Kami</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Service Besar</h2>
+        <img src="https://riaujayacemerlang.id/wp-content/uploads/2023/03/75994-servis-motor.jpg" alt="">
+        <p>Adapun beberapa komponen yang biasanya akan diperiksa atau diganti jika kondisinya sudah tidak layak, antara lain:</p>
+        <ul>
+            <li>Filter udara diganti pula.</li>
+            <li>Pemeriksaan pada padu kaki-kaki mobil.</li>
+            <li>Pemeriksaan sistem kelistrikan pada mobil.</li>
+            <li>Memeriksa kondisi sistem pendingin.</li>
+        </ul>
+        <button id="backButton">Kembali</button>
+    </div>
+</div>
+
+<footer>
+    <p>Developed By Kelompok 3</p>
+</footer>
+
+<script>
+    // Menangani aksi tombol kembali
+    document.getElementById('backButton').addEventListener('click', function() {
+        window.history.back();
+    });
+</script>
+
+</body>
+</html>
